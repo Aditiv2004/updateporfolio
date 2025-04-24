@@ -21,7 +21,7 @@ export default function Footer() {
 
     <div class="footer-contact">
       <h4>Contact Me</h4>
-      <p><i class="fas fa-envelope"></i> aditi.vishwakarma@example.com</p>
+      <p><i class="fas fa-envelope"></i> aditivishwakarma503@gmail.com</p>
       <p><i class="fas fa-phone-alt"></i> +91 9136303552</p>
     </div>
 
