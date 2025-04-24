@@ -45,6 +45,23 @@
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
     background-color: var(--hover-bg);
   }
+ .skill-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 2px;
+    background: linear-gradient(135deg, #4263f5, #fca5a5);
+    mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    mask-composite: exclude; 
+    -webkit-mask-composite: destination-out;
+    pointer-events: none;
+  }
   
   .skill-card img {
     width: 80px;
