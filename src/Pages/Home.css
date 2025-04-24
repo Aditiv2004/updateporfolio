@@ -1,0 +1,110 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    
+    }
+
+    /* Home Section */
+    .home {
+      padding: 4rem 2rem;
+      background: transparent;
+      height:80vh ;
+    }
+
+    .home-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .profile-pic img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(106, 17, 203, 0.2);
+    }
+
+    .home-content {
+      max-width: 500px;
+    }
+
+    .home-content h2 {
+      font-size: 2rem;
+      color: #222;
+    }
+
+    .home-content h2 span {
+      color: #d6336c;
+    }
+
+    .home-content h3 {
+      color: #2575fc;
+      margin: 0.5rem 0;
+    }
+
+    .home-content p {
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .social-icons {
+      margin: 1rem 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .social-icons a {
+      font-size: 1.2rem;
+      color: #2575fc;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #6a11cb;
+      transform: scale(1.2);
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 50px;
+      border: none;
+      box-shadow: 0 0 15px rgba(106, 17, 203, 0.5);
+      font-size: 1rem;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .download-btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(90deg, #2575fc, #6a11cb);
+      box-shadow: 0 0 20px rgba(37, 117, 252, 0.6);
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .home-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile-pic img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  
